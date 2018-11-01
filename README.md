@@ -1,0 +1,2 @@
+# exerciciospythonbrasil
+Pra exercitar
