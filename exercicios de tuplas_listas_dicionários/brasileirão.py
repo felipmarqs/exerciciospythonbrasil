@@ -1,0 +1,13 @@
+#Crie uma tupla preenchida com os 20 primeiros colocados da tabela do brasileirão na ordem de colocação. DEpois mostre. A)Apenas os 5 primeiros colocados. B)Os últimos 4 colocados. C) Uma lista com os times em ordem alfabética. D)EM que posição da tabeela está o time da chapecoense
+tabela = ('Palmeiras','Flamengo','Internacional','Grêmio','São Paulo','Atlético','Atlético-PR','Cruzeiro','Botafogo','Santos','Bahia','Fluminense','Corinthians','Chapecoense','Ceará','Vasco da Gama','Sport Recife','América-MG','EC Vitória','Paraná')
+print(f"Lista dos times do brasileirão {tabela}")
+print("-="*30)
+print(f"Os 5 primeiros colocados são {tabela[0:5]}")
+print("-="*30)
+print(f"Os últimos 4 são: {tabela[17:21]}")
+print("-="*30)
+print(f"Os times em ordem alfabética são {sorted(tabela)}")
+print("-="*30)
+print(f"A Chapecoense está na {tabela.index('Chapecoense')+1}ª posição")
+print("-="*30)
+print(f"")
